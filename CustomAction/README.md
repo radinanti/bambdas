@@ -5,6 +5,7 @@ Please do not manually edit this file, or include any changes to this file in pu
 -->
 # Custom Actions
 Documentation: [Custom actions](https://portswigger.net/burp/documentation/desktop/tools/repeater/http-messages/custom-actions)
+<<<<<<< HEAD
 ## [ApiDowngradeUpgrade.bambda](https://github.com/PortSwigger/bambdas/blob/main/CustomAction/ApiDowngradeUpgrade.bambda)
 ### This Downgrade and Upgrade api version based on your current version
 #### Author: radinanti (https://github.com/radinanti)
@@ -43,6 +44,8 @@ for (int i = 1; i <= 5; i++) {
 }
 
 ```
+=======
+>>>>>>> parent of e6efd18 (Update README.md files)
 ## [BypassFirstRequestValidation.bambda](https://github.com/PortSwigger/bambdas/blob/main/CustomAction/BypassFirstRequestValidation.bambda)
 ### This hides your repeater request behind an innocent GET request. It's useful for bypassing server-level validation sometimes.
 #### Author: James Kettle (https://github.com/albinowax)
